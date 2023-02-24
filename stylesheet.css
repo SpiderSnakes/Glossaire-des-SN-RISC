@@ -1,0 +1,65 @@
+/* Applique une police de caractères personnalisée à l'ensemble de la page */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Centre le titre principal */
+h1 {
+  text-align: center;
+}
+
+/* Ajoute une marge supérieure et inférieure aux paragraphes d'introduction */
+.Intro {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Donne une apparence de tableau plus claire */
+.Table table {
+  border-collapse: collapse;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.Table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Ajoute un fond et une marge autour des sections */
+section {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Donne une apparence de liste plus claire */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Donne un style différent aux titres de section */
+section h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Donne un style différent aux liens de la table des matières */
+.Table td a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Ajoute un effet de survol aux liens de la table des matières */
+.Table td a:hover {
+  background-color: #f5f5f5;
+}
+
+li{
+  margin-bottom: 1%;
+}
+
