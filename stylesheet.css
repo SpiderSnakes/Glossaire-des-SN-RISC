@@ -1,75 +1,71 @@
+/* Importe une police de caractères personnalisée pour la page */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
-/* Applique une police de caractères personnalisée à l'ensemble de la page */
+/* Applique une police de caractères de secours et un padding au corps de la page */
 body {
   font-family: Arial, sans-serif;
-  padding-top: 12%;
-  /* ajustez la valeur en fonction de la hauteur de votre barre de navigation */
+  padding-top: 12%; /* Ajustez cette valeur en fonction de la hauteur de votre barre de navigation */
 }
 
+/* Style pour la barre de navigation fixée en haut */
 .sticky {
   position: fixed;
   top: 0%;
-  left: 20%;
-  right: 20%;
-  width: 55%;
-  height: 25%;
-  background-color: cyan;
-  opacity: 100%;
-  text-align: center;
-  border-bottom-right-radius: 8%;
-  border-bottom-left-radius: 8%;
+  left: 20%; /* Place la barre à 20% de la marge gauche */
+  right: 20%; /* Place la barre à 20% de la marge droite */
+  width: 55%; /* Largeur de la barre */
+  height: 25%; /* Hauteur de la barre */
+  background-color: cyan; /* Couleur de fond de la barre */
+  opacity: 100%; /* Opacité de la barre */
+  text-align: center; /* Alignement du texte au centre */
+  border-radius: 30px;
 }
 
 /* Ajoute une marge supérieure et inférieure aux paragraphes d'introduction */
 .Intro {
-  margin-top: 50px;
+  margin-top: auto;
   margin-bottom: 50px;
 }
 
+/* Style pour la table des matières */
 .Table td {
-  border: 1px solid black;
-  padding: 10px;
-  text-align: center;
-  color: black;
-}
-
-/* Donne un style différent aux liens de la table des matières */
-.Table td a {
-  color: black;
-  text-decoration: none;
+  border: 1px solid black; /* Bordure autour des cellules */
+  padding: 10px; /* Espace à l'intérieur des cellules */
+  text-align: center; /* Alignement du texte au centre */
+  color: black; /* Couleur du texte */
 }
 
 /* Centre le titre principal */
 h1 {
-  text-align: center;
+  text-align: center; /* Alignement du texte au centre */
 }
 
+/* Style pour les sous-titres */
 h2 {
-  font-family: 'Bungee Shade', cursive;
-
+  font-family: 'Bungee Shade', cursive; /* Police de caractères personnalisée */
 }
 
-/* Ajoute un fond et une marge autour des sections */
+/* Style pour les sections */
 section {
-  background-color: #f5f5f5;
-  padding: 20px;
-  margin: 20px 0;
+  background-color: #f5f5f5; /* Couleur de fond des sections */
+  padding: 20px; /* Espace à l'intérieur des sections */
+  margin: 20px 0; /* Marge autour des sections */
 }
 
-/* Donne un style différent aux titres de section */
+/* Style pour les titres de section */
 section h2 {
-  font-size: 24px;
-  margin-top: 0;
-  margin-bottom: 20px;
+  font-size: 24px; /* Taille de police pour les titres de section */
+  margin-top: 0; /* Pas de marge supérieure pour les titres de section */
+  margin-bottom: 20px; /* Marge inférieure pour les titres de section */
 }
 
-/* Donne une apparence de liste plus claire */
+/* Style pour les listes */
 ul {
-  list-style-type: disc;
-  margin-left: 20px;
+  list-style-type: square; /* Style de puce */
+  margin-left: auto; /* Marge à gauche de la liste */
 }
 
+/* Style pour les éléments de liste */
 li {
-  margin-bottom: 1%;
+  margin-bottom: 1%; /* Marge inférieure pour les éléments de liste */
 }
