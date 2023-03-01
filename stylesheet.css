@@ -1,24 +1,22 @@
 /* Importe une police de caractères personnalisée pour la page */
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* Applique une police de caractères de secours et un padding au corps de la page */
 body {
   font-family: Arial, sans-serif;
-  padding-top: 12%; /* Ajustez cette valeur en fonction de la hauteur de votre barre de navigation */
+  padding-top: 14%; /* Ajustez cette valeur en fonction de la hauteur de votre barre de navigation */
 }
 
 /* Style pour la barre de navigation fixée en haut */
 .sticky {
   position: fixed;
   top: 0%;
-  left: 20%; /* Place la barre à 20% de la marge gauche */
-  right: 20%; /* Place la barre à 20% de la marge droite */
-  width: 55%; /* Largeur de la barre */
-  height: 25%; /* Hauteur de la barre */
-  background-color: cyan; /* Couleur de fond de la barre */
-  opacity: 100%; /* Opacité de la barre */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: bisque; /* Couleur de fond de la barre */
   text-align: center; /* Alignement du texte au centre */
-  border-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 /* Ajoute une marge supérieure et inférieure aux paragraphes d'introduction */
@@ -29,10 +27,13 @@ body {
 
 /* Style pour la table des matières */
 .Table td {
-  border: 1px solid black; /* Bordure autour des cellules */
+  border: 0px solid black; /* Bordure autour des cellules */
   padding: 10px; /* Espace à l'intérieur des cellules */
   text-align: center; /* Alignement du texte au centre */
   color: black; /* Couleur du texte */
+  font-family: 'Anton', sans-serif;
+  background-color: lightgreen;
+  border-radius: 30px;
 }
 
 /* Centre le titre principal */
